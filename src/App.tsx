@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './Page/HomePage'
+import '@mantine/core/styles.css';
+import '@mantine/carousel/styles.css';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function App() {
  
