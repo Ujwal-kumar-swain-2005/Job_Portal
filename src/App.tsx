@@ -4,7 +4,7 @@ import FindJobs from './Page/FindJobs';
 
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
-
+import FindTalent from './Page/FindTalent';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, MantineProvider } from '@mantine/core';
 
@@ -32,6 +32,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/find-jobs" element={<FindJobs />} />
+          <Route path = "/find-talent" element ={<FindTalent />} />
           <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
