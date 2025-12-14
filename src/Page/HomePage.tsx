@@ -11,7 +11,7 @@ import Footer from '../Footer/Footer'
 
 const HomePage = () => {
   return (
-    <div className='min-h-[100vh] bg-mine-shaft-950'>
+  <div className='min-h-[100vh] bg-mine-shaft-950'>
       <Header />
       <DreamJob />
       <Companies />
