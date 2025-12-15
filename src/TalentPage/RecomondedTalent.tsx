@@ -8,7 +8,7 @@ const RecomondedTalent = () => {
       <div className='text-xl font-semibold mb-5'>
         Recommended Talent
       </div>
-      <div>
+      <div className='flex flex-col flex-wrap gap-3'>
       {talents.map((talent,index)=>{
         return <TalentCard key={index} talent={talent} />
       })}
