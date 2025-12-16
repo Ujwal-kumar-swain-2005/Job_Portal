@@ -11,6 +11,7 @@ import { createTheme, MantineProvider } from '@mantine/core';
 import TalentProfile from './Page/TalentProfile';
 
 import PostJobPage from './Page/JobPostPage';
+import JobdescPage from './Page/JobdescPage';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="/find-jobs" element={<FindJobs />} />
           <Route path = "/find-talent" element ={<FindTalent />} />
           <Route path = "/post-job" element ={<PostJobPage />} />
+          <Route path = "/jobs" element ={<JobdescPage/>} />
           <Route path='/find-profile' element ={<TalentProfile />} />
           <Route path="/" element={<Home />} />
         </Routes>
